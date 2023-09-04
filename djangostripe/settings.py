@@ -127,8 +127,8 @@ STATICFILES_DIRS = [BASE_DIR / 'static']
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Stripe configuration
-STRIPE_PUBLISHABLE_KEY = '<your test publishable key here>'
-STRIPE_SECRET_KEY = '<your test secret key here>'
+STRIPE_PUBLISHABLE_KEY = 'pk_test_51LXBAHEDERAhO3af3SzlCSsLcqgqhiQDgp30SiRzRBLlsxbmhp9rO7QJ0lCcZ83qIDqNJSdliG95kUdQMsDyiTmt003X0fduwG'
+STRIPE_SECRET_KEY = 'sk_test_51LXBAHEDERAhO3af2EW6VKGgZeZoYNj4B68yIstBk6QCiEQmEHu2ia48eWo37NKBLhsDrRNVYT4CfuNd8IhVLr2x00yH3kUbtk'
 
 # This is only required when using webhooks
 STRIPE_ENDPOINT_SECRET = '<your endpoint secret key here>'

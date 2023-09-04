@@ -1,5 +1,6 @@
 import stripe
 from django.conf import settings
+from django.contrib.auth.models import User
 from django.http.response import JsonResponse, HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.views.generic.base import TemplateView
